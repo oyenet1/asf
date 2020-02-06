@@ -1,0 +1,51 @@
+/* styling of the page footer */
+.footer {
+	width:100%;
+	clear: both;
+	padding: 5px 2px 1px; /* Some padding */
+    background-color: rgb(200, 200, 200); /* Grey background */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-around;
+	align-content: center;
+}
+
+.copyright {
+	text-align: center;
+	padding: 4px;
+	background-color: white;
+	margin:0px;
+	border-top: 3px solid #1abc9c;
+	border-bottom: 3px solid #1abc9c;
+}
+
+/* Some padding */
+a img {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px; 
+	margin-top: 2px;
+}
+
+/* give border to social media button */
+a img:hover {
+	border:3px solid white;
+}
+
+.hfoot {
+	
+	font-size:22px; 
+	margin-bottom:2px; 
+	padding-bottom:2px; 
+	text-align: center;
+}
+p.hfoot:hover {
+	color: #1abc9c;
+	background-color: inherit;
+	border-bottom: 2px solid white; 
+}
+ 
+a {
+	 text-decoration: none;
+ }
