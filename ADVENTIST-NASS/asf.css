@@ -1,0 +1,57 @@
+body {background-image: ("./image/naas.jpg"}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0 150 0);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0 200 0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255 255 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom:2px solid green;
+    font-weight: bold
+}
+
+.dropdown-content a:hover {background-color: rgb(200 200 200)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: 1px solid green
+}
+
+div.social {border: 2px solid red;
+}

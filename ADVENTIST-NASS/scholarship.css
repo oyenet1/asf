@@ -1,0 +1,51 @@
+/* small scholarship design*/
+p a {
+	text-decoration: none;
+	
+}
+/* scholarship design */
+.scholarshiplist {
+	width: 265px; 
+	background-color: white;
+	height:90px;
+	border: 1px solid gray;
+	margin: 5px;
+	float: left;
+	font-size: 15px;
+}
+
+.opportunity{
+	width:100%;
+}
+
+p.scholarshiplist a {
+	color: black;
+}
+
+p.scholarshiplist a:hover {
+	color: rgb(20, 200, 150);
+}
+
+
+/*previous and next button*/
+a.prevpage, a.nextpage {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+a:hover {
+  background-color: white;
+  color: rgb(0, 0, 250);
+}
+
+
+.nextpage {
+  float: right;
+}
+
+
+	

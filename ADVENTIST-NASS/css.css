@@ -1,0 +1,22 @@
+ul {list-style-type: none; margin:0; padding: 0; overflow: hidden;  background-color: rgb(0 150 0); width: 100%}
+li {float: left}
+li a {text-decoration:none; font-size: 20px; text-align:center; padding: 10px 12px; color:rgb(256 256 256); font-weight:; display:inline-block}
+li a:hover {background-color:rgb(0 256 0)}
+li a:visited {background-color:rgb(2 256 0)}
+h2 {background-color:rgb(0 256 0); font-family:algerian; margin:2px; text-align:center; color: rgb(0 0 0); border-left:5px black dashed }
+div#head {width:100%; margin: auto; background-color:rgb(0 256 0); border:3px solid rgb(0 150 0) }
+div#left {width:27%; overflow:auto; height:50em; float:left; margin: auto; border:2px dashed black;background-color: }
+div#right {width:70%; overflow:auto; padding-right:1%; float:right; margin-bottom:5px; height:50em; background-image: url("./image/naas.jpg"); background-size:cover }
+div#foot {width:100%; clear:both; background-color:rgb(200 200 200); border:2px dashed black; margin-top:3px }
+div.foot1 {width:260px; height:230px; float:left; border:2px solid white; margin:0 0 4px 4px; overflow:auto; background-color: rgb(0 150 0) }
+.info {width:100%; clear:both }
+h1 {font-family:algerian; text-align: center; margin:0px}
+.nomargin {margin:0px; text-align:center }
+.bold {font-weight:bold}
+.address {font-style: italic}
+.flow {float:left; border:2px dashed green; padding:3px; margin:2px}
+.borderleft {border-left:2px solid green; background-color: white; margin:2px;}
+.campus {text-align:center; font-weight:bold; font-size:22px; background-color: rgb(0 0 0); padding:8px; margin:0px; color: rgba(0 256 0 ) }
+h1.nomargin {font-style: italic;}
+div > img {z-index:-1}
+img.icon {width:250px; height:40px; margin:2px; border-radius:10px}

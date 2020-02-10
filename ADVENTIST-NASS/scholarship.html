@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<link rel="stylesheet" type="text/css" href="nav.css">
+		<link rel="stylesheet" type="text/css" href="scholarship.css">
+		<link rel="stylesheet" type="text/css" href="slides.css">
+		<script src="navigation.js"></script>
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Adventists Student Fellowship</h1>
+			<p>Nurtured and Assured, Accepted and Sanctified</p>
+		</div>
+		<div class="topnav" id="myTopnav">
+		  <a href="navigation.html">Home</a>
+		  <a href="#contact">Programs</a>
+		  <div class="dropdown">
+			<button class="dropbtn">Hymns
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="#">Link 1</a>
+			  <a href="#">Link 2</a>
+			  <a href="#">Link 3</a>
+			</div>
+		  </div>
+		  <div class="dropdown">
+			<button class="dropbtn">Opportunity
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="scholarship.html">Scholarship</a>
+			  <a href="#">Intership</a>
+			  <a href="#">Enterpreneurship</a>
+			</div>
+		  </div>
+		  <a href="#about">Records</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+	
+		<div class="row" style="margin: auto; width: 90%">
+		  <div class="side">
+			
+		  </div>
+		  <div class="main">
+			
+			<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="./image/naas1.jpg" style="width:100%">
+			  <div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="./image/fellfood.jpg" style="width:100%">
+			  <div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="./image/sing1.jpg" style="width:100%">
+			  <div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			<p class="subhead"><b>Scholarhip Opportunity</b></p>
+			
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/flower8.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/garden.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/fellow1.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/cel5.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/cel3.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/flower8.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/bank2.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			<p class="scholarshiplist">
+				<a href="#facebook"><img src="./image/cel.jpg" style=" width:100px; height:80px;
+				float: left; margin: 5px">How to win chevening Scholarship in 2020</a>
+			</p>
+			
+			<a href="#" class="prevpage">&laquo; Prev</a>
+			<a href="#" class="nextpage">Next &raquo;</a>
+			
+		  </div>
+		  
+		  <div class="right">
+				<p class="subhead ">Weekly Service</p>
+				
+				<p style="margin: 0px 0px 1px">
+					<p style="font-size: 15px; margin: 0px; font-weight: bold">Saturdays:<br></p>
+					</b>sabath school:</b> 9:00am<br></b>Divine Service:</b> 11:00am
+			
+					<p style="font-size: 15px; margin: 0px; font-weight: bold">Wednesdays:<br></p>
+					</b>Prayer Meeting:</b> 5:00pm
+					<p style="font-size: 15px; margin: 0px; font-weight: bold">Fridays:<br></p>
+				</p>
+				
+		  </div>
+		</div>
+		  
+		<div class="footer">
+			<div class="social">
+				<p style=" margin:0px; font-size:18px; color: black">Let's get Connected on:</p>
+				<a href="#facebook"><img src="./image/fb.png"></a>
+				<a href="#facebook"><img src="./image/whatsapp.png"></a>
+				<a href="#facebook"><img src="./image/yu.png"></a>
+				<a href="#facebook"><img src="./image/inst.jpg"></a>
+				<a href="#facebook"><img src="./image/twit3.jpg"></a>
+			</div>
+			
+			<div class="footd">
+				<p class="subhead">Contact Us</p>
+				<p style="font-size: 15px; margin: 0px; font-weight: bold">Adventist Student Fellowship</p>
+				<address>University of Abuja, Airport Road <br>Gwagwalada, Abuja.</address>
+				<p style="font-size: 15px; margin: 0px"><span class="bold">phone:</span> +2348012345678<br><span class="bold">email:</span> <a href="mailto:info@naasuniabuja.com" title="To join us or make Enquiry">info@nassuniabuja.com</a> or <br><a href="mailto:nassuniabuja@gmail.com" title="For donation and Request">naasuniabuja@gmail.com</a></p>
+			</div>
+			
+			<ul style="float: left; list-style-type: none; text-decoration: none;">
+				<li><a href="#f">Adventist Believe</a></li>
+				<li><a href="#f">Naas Constitution</a></li>
+				<li><a href="#f">Excos</a></li>
+				<li><a href="#f">Members</a></li>
+				<li><a href="#f">Events</a></li>
+				<li><a href="#f">Adventist Books</a></li>
+				<li><a href="#f">Naas Convention</a></li>
+				<li><a href="#f">Lesson Study</a></li>
+				<li><a href="#f">Hymns(Audio)</a></li>
+				<li><a href="#f">Mission Story</a></li>
+			</ul>
+			
+			<hr style="width: 100%; background-color: black; padding: 2px; margin:0px; clear: left">
+			<p class="copyright">Copyright&copy asf-uniabuja.com 2019 </p>
+			<hr style="width: 100%; background-color: black; padding: 2px; margin:0px">
+		</div>
+	
+	</body>
+</html>
